@@ -2,7 +2,7 @@ import json
 import time
 import openai
 from openai import OpenAI
-from settings import OPENAI_API_KEY
+from generative_openai.tasks.settings import OPENAI_API_KEY
 
 openai.api_key = OPENAI_API_KEY
 openai.default_headers = {"OpenAI-Beta": "assistants=v2"}
